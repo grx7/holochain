@@ -4,8 +4,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
-<<<<<<< HEAD
-=======
 - Fixes issue where holochain could get stuck in infinite loop when trying to send validation receipts. [#1181](https://github.com/holochain/holochain/pull/1181).
 
 - Adds better batching to validation workflows for much faster validation. [#1167](https://github.com/holochain/holochain/pull/1167).
@@ -22,7 +20,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## 0.0.119
 
->>>>>>> 0bb44ea0b... fix receipt workflow infinite loop
 ## 0.0.118
 
 - **BREAKING CHANGE** - Gossip now exchanges local peer info with `initiate` and `accept` request types. [\#1114](https://github.com/holochain/holochain/pull/1114).
